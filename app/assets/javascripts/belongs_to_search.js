@@ -7,7 +7,7 @@ $(function() {
       labelField: 'dashboard_display_name',
       searchField: 'dashboard_display_name',
       create: false,
-      searchUrl: "https" + $element.data('url').slice(4) + '?search=',
+      searchUrl: "http" + $element.data('url').slice(4) + '?search=',
 
       load: function(query, callback) {
         if (!query.length) return callback();
